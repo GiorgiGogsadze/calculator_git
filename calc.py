@@ -11,3 +11,4 @@ if y == 0:
   print("can't divide with 0")
 else:
   print(f"div: {x / y}")
+print("bye bye")
