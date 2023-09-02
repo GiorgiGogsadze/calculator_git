@@ -1,3 +1,4 @@
+import math
 print("the Best calculator ever!")
 
 x = int(input("x: "))
@@ -11,4 +12,6 @@ if y == 0:
   print("can't divide with 0")
 else:
   print(f"div: {x / y}")
+
+print(f"SQRT: {math.sqrt(x)}")
 print("bye bye")
